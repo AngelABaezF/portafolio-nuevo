@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Dev Skywalker</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts: Orbitron (display) + Rajdhani (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <!-- Remix Icons for WhatsApp / LinkedIn / etc. -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── STAR FIELD CANVAS (background) ─────────────────────────────────── -->
+  <canvas id="starfield"></canvas>
+
+  <!-- ─── NAV ─────────────────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">[</span>
+      <span id="nav-name">Portfolio</span>
+      <span class="logo-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#intro">Inicio</a></li>
+      <li><a href="#timeline">Experiencia</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── SECTION 1 · INTRO ────────────────────────────────────────────────── -->
+  <section id="intro" class="section">
+    <div class="intro-grid">
+
+      <!-- Foto circular con overlay LinkedIn -->
+      <div class="photo-wrapper">
+        <div class="photo-ring"></div>
+        <div class="photo-container" id="photoContainer">
+          <img id="profilePhoto" src="" alt="Foto de perfil" />
+          <a id="linkedinOverlay" href="#" target="_blank" rel="noopener" class="linkedin-overlay">
+            <i class="ri-linkedin-box-fill"></i>
+            <span>Ver LinkedIn</span>
+          </a>
+        </div>
+        <!-- Decorative scan line -->
+        <div class="scan-line"></div>
+      </div>
+
+      <!-- Bloque de texto personal -->
+      <div class="intro-text">
+        <p class="intro-greeting">Transmisión entrante…</p>
+        <h1 id="introName" class="glitch" data-text="Dev Skywalker">Dev Skywalker</h1>
+        <div class="title-bar">
+          <span class="title-badge">Fullstack</span>
+          <span class="title-badge">Backend Architect</span>
+        </div>
+        <p id="introBio" class="intro-bio">Cargando datos desde la base de datos imperial…</p>
+        <div class="intro-cta">
+          <a href="#projects" class="btn-primary">Ver Proyectos</a>
+          <a href="#contact" class="btn-ghost">Contactar</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Decorative HUD corners -->
+    <div class="hud-corner hud-tl"></div>
+    <div class="hud-corner hud-tr"></div>
+    <div class="hud-corner hud-bl"></div>
+    <div class="hud-corner hud-br"></div>
+  </section>
+
+  <!-- ─── SECTION 2 · TIMELINE ─────────────────────────────────────────────── -->
+  <section id="timeline" class="section">
+    <div class="section-header">
+      <h2 class="section-title">Registro de Misiones</h2>
+      <p class="section-sub">Línea temporal · Experiencia &amp; Educación</p>
+    </div>
+
+    <!-- La línea y los nodos se generan dinámicamente -->
+    <div class="timeline-track" id="timelineTrack">
+      <div class="timeline-rail"></div>
+      <!-- Nodos inyectados por JS -->
+    </div>
+
+    <!-- Tarjeta flotante de timeline (se posiciona con JS) -->
+    <div class="timeline-card hidden" id="timelineCard">
+      <button class="timeline-card-close" id="tlCardClose">✕</button>
+      <p class="tl-date" id="tlDate"></p>
+      <h3 class="tl-title" id="tlTitle"></h3>
+      <p class="tl-desc" id="tlDesc"></p>
+      <a class="btn-ghost btn-sm hidden" id="tlLink" href="#" target="_blank" rel="noopener">Ver más →</a>
+    </div>
+  </section>
+
+  <!-- ─── SECTION 3 · PROJECTS ─────────────────────────────────────────────── -->
+  <section id="projects" class="section">
+    <div class="section-header">
+      <h2 class="section-title">Base de Operaciones</h2>
+      <p class="section-sub">Proyectos · Selecciona un objetivo</p>
+    </div>
+
+    <!-- Barra de filtros estilo panel de control -->
+    <nav class="filter-bar" id="filterBar" role="navigation" aria-label="Filtrar proyectos">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <!-- Botones de categorías se inyectan por JS -->
+    </nav>
+
+    <!-- Grid de tarjetas -->
+    <div class="projects-grid" id="projectsGrid">
+      <!-- Tarjetas inyectadas por JS -->
+    </div>
+  </section>
+
+  <!-- ─── SECTION 4 · PROJECT DETAIL (modal/expandible) ───────────────────── -->
+  <div class="project-detail-overlay hidden" id="projectDetailOverlay">
+    <div class="project-detail-panel" id="projectDetailPanel">
+      <!-- Cabecera -->
+      <div class="pd-header">
+        <button class="pd-close" id="pdClose" aria-label="Cerrar">✕</button>
+        <p class="pd-role" id="pdRole"></p>
+        <h2 class="pd-title" id="pdTitle"></h2>
+      </div>
+
+      <!-- Cuerpo -->
+      <div class="pd-body">
+        <!-- Media: YouTube iframe o imagen -->
+        <div class="pd-media" id="pdMedia"></div>
+
+        <!-- Descripción y tech stack -->
+        <div class="pd-info">
+          <p class="pd-desc" id="pdDesc"></p>
+          <div class="pd-tech" id="pdTech"></div>
+        </div>
+      </div>
+
+      <!-- Efecto HUD corners -->
+      <div class="hud-corner hud-tl"></div>
+      <div class="hud-corner hud-tr"></div>
+      <div class="hud-corner hud-bl"></div>
+      <div class="hud-corner hud-br"></div>
+    </div>
+  </div>
+
+  <!-- ─── SECTION 5 · CONTACT ──────────────────────────────────────────────── -->
+  <section id="contact" class="section">
+    <div class="section-header">
+      <h2 class="section-title">Canal de Comunicación</h2>
+      <p class="section-sub">Envía una transmisión al piloto</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Sobre animado -->
+      <div class="envelope-wrapper">
+        <div class="envelope" id="envelopeBtn">
+          <div class="env-flap"></div>
+          <div class="env-body">
+            <div class="env-letter">
+              <span>Abrir cliente de correo</span>
+            </div>
+          </div>
+          <div class="env-glow"></div>
+        </div>
+        <p class="contact-label">Correo Electrónico</p>
+      </div>
+
+      <!-- Botón WhatsApp / Teams -->
+      <div class="contact-social">
+        <a id="waLink" href="#" target="_blank" rel="noopener" class="social-btn wa-btn">
+          <i class="ri-whatsapp-line"></i>
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://teams.microsoft.com" target="_blank" rel="noopener" class="social-btn teams-btn">
+          <i class="ri-microsoft-line"></i>
+          <span>Teams</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────────────────── -->
+  <footer>
+    <p>© <span id="footerYear"></span> · <span id="footerName">Dev Skywalker</span> · Que la Fuerza del Código esté contigo.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
