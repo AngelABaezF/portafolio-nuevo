@@ -119,17 +119,15 @@
     {
       "id": "proj-0",
       "category": [
-        "Robotics", "Embedded Systems"
+        "Robotics"
       ],
-      "title": "Proyecto de Servicio Social (Robot barredora)",
-      "shortDesc": "Diseñé y modelé un prototipo de robot barredora controlado remotamente, integrando principios de economía circular mediante el uso de materiales reciclados y simulación técnica en Tinkercad.",
-      "role": "Diseñador y Programador",
-      "fullDesc": "Programé la unidad de procesamiento central basada en el microcontrolador ESP32, utilizando C++ (Arduino IDE) para gestionar la lógica de control de motores, conectividad inalámbrica y la respuesta de los actuadores de limpieza. Implementé protocolos de comunicación para el control remoto y realicé la arquitectura de circuitos electrónicos. Documenté el ciclo de desarrollo de hardware.",
+      "title": "Social Service Project (Sweeper Robot)",
+      "shortDesc": "Designed and modeled a remote-controlled sweeper robot prototype, integrating circular economy principles by using recycled materials and technical simulation in Tinkercad.",
+      "role": "Robotics Software Developer",
+      "fullDesc": "Programmed the central processing unit based on the ESP32 microcontroller, using C++ (Arduino IDE) to manage motor control logic, wireless connectivity, and the response of cleaning actuators. Implemented communication protocols for remote control and designed the electronic circuit architecture. Documented the hardware development cycle.",
       "tech": [
-        "C++",
-        "Arduino IDE",
-        "ESP32",
-        "Tinkercad"
+        "Tinkercad",
+        "Arduino IDE"
       ],
       "mediaType": "image",
       "mediaSrc": "img/.png",
@@ -138,16 +136,20 @@
     {
       "id": "proj-1",
       "category": [
-        "Fullstack"
+        "WEB"
       ],
-      "title": "Practicas Profesionales en Giramo S.A. de C.V.",
-      "shortDesc": "Digitalicé los procesos de registro de obra mediante el desarrollo de una aplicación web técnica utilizando PHP, JavaScript (JS) y CSS, optimizando el flujo de datos administrativo.",
-      "role": "Desarrollador Fullstack",
-      "fullDesc": "Diseñé y gestioné una base de datos relacional robusta en MySQL mediante consultas SQL, asegurando la integridad y disponibilidad de la información crítica del proyecto. Documenté el ciclo de vida del software y el control de versiones, manteniendo un registro detallado de modificaciones y requerimientos técnicos.",
+      "title": "Professional Internship at Giramo S.A. de C.V.",
+      "shortDesc": "Digitized the construction registration processes by developing a technical web application, optimizing the administrative data flow.",
+      "role": "Software Engineer",
+      "fullDesc": "Designed and managed a robust relational database in MySQL using SQL queries, ensuring the integrity and availability of critical project information. Documented the software lifecycle and version control, maintaining a detailed record of modifications and technical requirements.",
       "tech": [
-        "PHP",
-        "JavaScript",
+        "HTML",
         "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
         "MySQL"
       ],
       "mediaType": "image",
@@ -157,28 +159,28 @@
     {
       "id": "proj-2",
       "category": [
-        "Game Development"
+        "Game Dev"
       ],
-      "title": "Proyecto Académico \"Halo 2D Aventuras\"img/.png",
-      "shortDesc": "Desarrollo de un motor de juego 2D desde cero.",
-      "role": "Diseñador de software y Programador",
-      "fullDesc": "Diseñé la arquitectura y el diseño técnico del motor de juego y sus sistemas subyacentes, estableciendo una base sólida para el desarrollo posterior. Lideré el desarrollo y la implementación del motor utilizando Python, creando una herramienta flexible y potente para la creación de juegos 2D.",
+      "title": "Academic Project \"Halo 2D Adventures\"",
+      "shortDesc": "Development of a 2D game engine from scratch.",
+      "role": "Software Engineer",
+      "fullDesc": "Developed a 2D game engine from scratch using Python and the Pygame library, implementing collision logic, animated sprites, and game state management. Applied Object-Oriented Programming (OOP) principles to structure characters, levels, and combat systems.",
       "tech": [
         "Python"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/halo2d.png",
-      "thumb": "img/halo2d.png"
+      "mediaSrc": "img/halo1.png",
+      "thumb": "img/halo1.png"
     },
     {
       "id": "proj-3",
       "category": [
-        "Scientific Computing"
+        "Data Simulation"
       ],
-      "title": "Proyecto Académico \"DoomsDay\"img/.png",
-      "shortDesc": "Simulación estocástica en Python para calcular la probabilidad de impacto de asteroides, basada en leyes de gravitación universal.",
-      "role": "Matemático y Programador",
-      "fullDesc": "Desarrollé la arquitectura de la simulación utilizando metodologías de modelado estocástico para evaluar trayectorias orbitales, considerando variables aleatorias y perturbaciones gravitacionales. Implementé algoritmos en Python para el procesamiento de datos astronómicos y la visualización de resultados, generando un análisis probabilístico de riesgo de impacto.",
+      "title": "Academic Project \"DoomsDay\"",
+      "shortDesc": "Stochastic simulation in Python to calculate the probability of asteroid impact, based on universal gravitation laws.",
+      "role": "Simulation Engineer",
+      "fullDesc": "Programmed a stochastic simulation in Python to calculate the probability of asteroid impact, based on universal gravitation laws and orbital mechanics. Analyzed multiple physical variables (mass, trajectory, velocity) to generate predictive models on terrestrial risk scenarios.",
       "tech": [
         "Python"
       ],
@@ -189,65 +191,95 @@
     {
       "id": "proj-4",
       "category": [
-        "Scientific Computing"
+        "Data Simulation"
       ],
-      "title": "Proyecto Académico \"Bungee Jumping\"img/.png",
-      "shortDesc": "Diseñé y desarrollé un simulador en MATLAB para modelar el salto en bungee de una persona, analizando la física del movimiento.",
-      "role": "Físico y Programador",
-      "fullDesc": "Construí el modelo matemático y la arquitectura del simulador basándome en ecuaciones diferenciales que describen la dinámica de fluidos (resistencia del aire), la fuerza de gravedad y la elasticidad de la cuerda (Ley de Hooke). Implementé algoritmos numéricos en MATLAB para resolver las ecuaciones del movimiento y generar gráficas de posición, velocidad y aceleración.",
+      "title": "Academic Project \"Bungee Jumping\"",
+      "shortDesc": "Designed and developed a simulator in MATLAB to model a person's bungee jump, analyzing the physics of motion.",
+      "role": "Simulation Engineer",
+      "fullDesc": "Implemented mathematical models considering free fall, the elastic force of the rope (Hooke's Law), and air resistance to calculate critical variables such as position, velocity, and acceleration using second-order differential equations. Programmed an interactive graphical interface allowing parameter adjustments and used numerical methods to predict the maximum stretch point and avoid collisions.",
       "tech": [
         "MATLAB"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/bungee.png",
+      "thumb": "img/bungee.png"
     },
     {
       "id": "proj-5",
       "category": [
-        "WEB3", "Project Management"
+        "WEB"
       ],
-      "title": "Hubby, startup de sitios web 3",
-      "shortDesc": "Proyecto web 3 gestionado con Scrum implementando DApps y un sistema de reconocimiento basado en NFT.",
-      "role": "Desarrollador y Scrum Master",
-      "fullDesc": "Lideré el equipo de desarrollo utilizando la metodología ágil Scrum para asegurar la entrega eficiente y organizada del proyecto web 3. Contribuí a la arquitectura e implementación de aplicaciones descentralizadas (DApps), integrando tecnologías blockchain como Solidity y Rust. Fui parte de la creación de un sistema de reconocimiento basado en NFT (Non-Fungible Tokens) para certificar habilidades y logros de los usuarios.",
+      "title": "HealthFinder - MLH Hackathon (HackMorelos)",
+      "shortDesc": "Development of a HealthTech startup with a web platform that facilitates the search for nearby medications and clinical services, comparing prices through geolocation.",
+      "role": "Backend Developer & Scrum Master",
+      "fullDesc": "Led team management under agile methodologies like Scrum to accelerate the MVP development of the hackathon. Was the main person in charge of designing and implementing the entire backend architecture using Node.js and Express.js. Modeled and developed in MySQL. Implemented algorithmic logic and integration with Leaflet.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "MySQL",
+        "Leaflet",
+        "Jira"
+      ],
+      "mediaType": "image",
+      "mediaSrc": "img/HealthFinder.png",
+      "thumb": "img/HealthFinder.png"
+    },
+    {
+      "id": "proj-6",
+      "category": [
+        "WEB3"
+      ],
+      "title": "Hubby, WEB3 Startup",
+      "shortDesc": "Web3 project managed with Scrum, implementing DApps and an NFT-based recognition system.",
+      "role": "Software Engineer",
+      "fullDesc": "Directed backend, frontend, and database teams for a Web3 project managed with Scrum. Developed blockchain-based solutions using Solidity, Rust, Go, Node.js, and JavaScript. Implemented DApps and an NFT-based recognition system.",
       "tech": [
         "Solidity",
         "Rust",
         "Go",
-        "Python",
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
         "JavaScript",
-        "Jira Scrum"
+        "REST API",
+        "Jira"
       ],
       "mediaType": "image",
       "mediaSrc": "img/.png",
       "thumb": "img/.png"
     },
     {
-      "id": "proj-6",
+      "id": "proj-7",
       "category": [
-        "Scientific Computing"
+        "Data Simulation"
       ],
-      "title": "Proyecto Académico \"Erupción Volcanica\"img/.png",
-      "shortDesc": "Simulación computacional orientada a la protección civil que modela la trayectoria de proyectiles volcánicos para determinar el radio de una zona segura frente a una erupción.",
-      "role": "Matemático y Programador",
-      "fullDesc": "Diseñé la arquitectura de la simulación incorporando ecuaciones diferenciales no lineales que describen el movimiento parabólico de proyectiles con arrastre aerodinámico variable. Implementé métodos numéricos (como Runge-Kutta) en MATLAB para la resolución del modelo, generando mapas de dispersión y análisis probabilístico de riesgo.",
+      "title": "Academic Project \"Volcanic Eruption\"",
+      "shortDesc": "Computational simulation oriented to civil protection modeling the trajectory of volcanic projectiles to determine the radius of a safe zone facing an eruption.",
+      "role": "Simulation Engineer",
+      "fullDesc": "Developed a numerical model in MATLAB to simulate the ballistic trajectory of volcanic projectiles, considering air resistance and variable gravity. Used differential equation resolution methods to visualize the reach and dispersion of materials in different eruptive scenarios.",
       "tech": [
         "MATLAB"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/matlab1.png",
-      "thumb": "img/matlab1.png"
+      "mediaSrc": "img/erupcionvolcanica.png",
+      "thumb": "img/erupcionvolcanica.png"
     },
     {
-      "id": "proj-7",
+      "id": "proj-8",
       "category": [
-        "Scientific Computing"
+        "Data Simulation"
       ],
-      "title": "Proyecto Académico \"Freno Magnetico\"img/.png",
-      "shortDesc": "Diseñé una simulación física sobre la desaceleración por Corrientes de Eddy, modelando el frenado electromagnético de una góndola de parque de diversiones.",
-      "role": "Físico y Programador",
-      "fullDesc": "Desarrollé el modelo matemático integrando las leyes del electromagnetismo (Ley de Faraday, Ley de Lenz) para calcular la fuerza de frenado magnético y su efecto en la cinemática de la góndola. Programé en MATLAB para resolver las ecuaciones diferenciales resultantes y generar gráficas de la posición y velocidad en función del tiempo y la intensidad del campo magnético.",
+      "title": "Academic Project \"Magnetic Brake\"",
+      "shortDesc": "Designed a physical simulation on deceleration by Eddy Currents, modeling the electromagnetic braking of an amusement park gondola.",
+      "role": "Simulation Engineer",
+      "fullDesc": "Designed a physical simulation in MATLAB on deceleration by Eddy Currents, modeling the electromagnetic braking of an amusement park gondola. Implemented mathematical models based on Faraday's and Lenz's Laws to optimize the efficiency and safety of the braking system.",
       "tech": [
         "MATLAB"
       ],
@@ -256,32 +288,31 @@
       "thumb": "img/frenomagnetico.png"
     },
     {
-      "id": "proj-8",
+      "id": "proj-9",
       "category": [
-        "Software Backend"
+        "WEB"
       ],
-      "title": "Proyecto Académico \"Servicio de streaming\"img/.png",
-      "shortDesc": "Diseñé la arquitectura de un sistema de streaming escalable bajo el paradigma de Programación Orientada a Objetos (POO).",
-      "role": "Arquitecto de software y desarrollador",
-      "fullDesc": "Definí la estructura del sistema utilizando diagramas UML para modelar clases, objetos, relaciones y flujos de datos, asegurando modularidad y extensibilidad. Desarrollé la lógica central en C++, implementando patrones de diseño para gestionar la concurrencia, el almacenamiento en caché y la distribución de contenido de manera eficiente.",
+      "title": "Academic Project \"Streaming Service\"",
+      "shortDesc": "Designed the architecture of a scalable streaming system under the Object-Oriented Programming (OOP) paradigm.",
+      "role": "Software Engineer",
+      "fullDesc": "Designed the architecture of a scalable streaming system under the Object-Oriented Programming (OOP) paradigm. Generated complete technical documentation through UML Class Diagrams, defining inheritance hierarchies, polymorphism, and encapsulation for user and content management. Included REST API development with Node.js and Express.js for the backend.",
       "tech": [
         "C++",
-        "UML",
         "POO"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/POO.png",
-      "thumb": "img/POO.png"
+      "mediaSrc": "img/.png",
+      "thumb": "img/.png"
     },
     {
       "id": "proj-10",
       "category": [
-        "Scientific Computing"
+        "Data Simulation"
       ],
-      "title": "Proyecto Académico \"Propagación de Malaria\"img/.png",
-      "shortDesc": "Diseñé y desarrollé un modelo matemático en MATLAB para simular la dinámica de transmisión de la malaria entre mosquitos y humanos utilizando el modelo epidemiológico de Ross-Macdonald.",
-      "role": "Matemático y Programador",
-      "fullDesc": "Construí la arquitectura de la simulación basada en un sistema de ecuaciones diferenciales acopladas que describe la interacción entre las poblaciones susceptibles e infectadas de vectores y huéspedes. Implementé algoritmos de resolución numérica en MATLAB, generando simulaciones y análisis de sensibilidad de parámetros clave para predecir escenarios de propagación y evaluar estrategias de intervención.",
+      "title": "Academic Project \"Malaria Propagation\"",
+      "shortDesc": "Designed and developed a mathematical model in MATLAB to simulate the transmission dynamics of malaria between mosquitoes and humans using the Ross-Macdonald epidemiological model.",
+      "role": "Simulation Engineer",
+      "fullDesc": "Implemented a system of ordinary differential equations (ODEs) to analyze how variables like bite rate and recovery affect the percentage of infected population over time. Programmed a computational simulation to predict the disease's behavior and evaluate the effectiveness of public health interventions.",
       "tech": [
         "MATLAB"
       ],
@@ -292,28 +323,28 @@
     {
       "id": "proj-11",
       "category": [
-        "Scientific Computing"
+        "Data Simulation"
       ],
-      "title": "Proyecto Académico \"Paraboloide Hiperbólico\"img/.png",
-      "shortDesc": "Diseñé y desarrollé una simulación computacional en MATLAB para el modelado arquitectónico de una capilla, utilizando la geometría de un paraboloide hiperbólico para optimizar eficiencia estructural.",
-      "role": "Matemático y Programador",
-      "fullDesc": "Desarrollé la representación matemática de la superficie en un sistema de coordenadas tridimensional, analizando propiedades geométricas para optimizar el diseño arquitectónico. Implementé rutinas en MATLAB para la generación de la malla, el renderizado de la estructura y el cálculo de parámetros de superficie, proporcionando una herramienta para la visualización.",
+      "title": "Academic Project \"Hyperbolic Paraboloid\"",
+      "shortDesc": "Designed and developed a computational simulation in MATLAB for the architectural modeling of a chapel, using hyperbolic paraboloid geometry to optimize structural efficiency.",
+      "role": "Simulation Engineer",
+      "fullDesc": "Implemented algorithms based on triple integrals to accurately calculate the required concrete volume and internal air volume for HVAC systems. Programmed a graphical interface for 3D visualization of the structure and developed a calculation module for optimizing formwork and structural supports.",
       "tech": [
         "MATLAB"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/paraboloidehiperbolico.png",
+      "thumb": "img/paraboloidehiperbolico.png"
     },
     {
       "id": "proj-12",
       "category": [
-        "Robotics", "Computer Vision"
+        "Computer Vision"
       ],
-      "title": "Dron Autónomo Seguidor de Línea (Competencia Nacional)",
-      "shortDesc": "Programé un sistema de navegación autónoma para un dron para participar en una competencia nacional.",
-      "role": "Programador de Drones",
-      "fullDesc": "Desarrollé algoritmos de visión por computadora en Python para el procesamiento de imágenes en tiempo real, identificando la línea guía y calculando vectores de dirección. Integré el sistema de visión con los controladores de vuelo, implementando un lazo de control PID para ajustar la trayectoria y estabilización del dron, garantizando un seguimiento preciso de la ruta a alta velocidad.",
+      "title": "Academic Project \"Image Processor\"",
+      "shortDesc": "Comparative study and application development to evaluate edge detection algorithms in digital images based on performance and accuracy.",
+      "role": "Software Engineer",
+      "fullDesc": "Developed an application in Python implementing computer vision algorithms (Canny, Sobel, Prewitt, Roberts) with Gaussian kernels and non-maximum suppression. Designed a GUI with Tkinter and optimized the system with dynamic binarization using the Roberts algorithm.",
       "tech": [
         "Python"
       ],
@@ -324,49 +355,85 @@
     {
       "id": "proj-13",
       "category": [
-        "Computer Vision"
-      ],
-      "title": "Proyecto Académico \"Procesador de Imagenes\"img/.png",
-      "shortDesc": "Estudio comparativo y desarrollo de aplicación para evaluar algoritmos de detección de bordes en imágenes digitales en función de rendimiento y precisión.",
-      "role": "Desarrollador de software",
-      "fullDesc": "Diseñé la arquitectura del software de procesamiento de imágenes y la interfaz gráfica. Implementé y optimicé algoritmos de detección de bordes clásicos (Canny, Sobel) y basados en Deep Learning utilizando Python. Realicé análisis estadísticos sobre los resultados de detección, evaluando métricas como la relación señal-ruido, tiempo de procesamiento y tasa de falsos positivos en diversos escenarios de iluminación y ruido.",
-      "tech": [
-        "Python"
-      ],
-      "mediaType": "image",
-      "mediaSrc": "img/procesadorimg.png",
-      "thumb": "img/procesadorimg.png"
-    },
-    {
-      "id": "proj-14",
-      "category": [
         "Embedded Systems"
       ],
-      "title": "Proyecto Académico \"Simulador de Microprocesador\"img/.png",
-      "shortDesc": "Diseñé y desarrollé un simulador de un microprocesador funcional utilizando lenguaje Ensamblador para comprender la arquitectura interna y manejo de registros.",
-      "role": "Desarrollador de software y sistemas embebidos",
-      "fullDesc": "Definí la arquitectura de la Unidad Lógico Aritmética (ALU), la Unidad de Control y el banco de registros, estableciendo el conjunto de instrucciones (ISA) soportado por el simulador. Programé el simulador en lenguaje Ensamblador de 16 bits, implementando la ejecución ciclo a ciclo de las instrucciones (Fetch, Decode, Execute) y la gestión de memoria virtual, permitiendo la carga y ejecución de programas binarios básicos.",
+      "title": "Academic Project \"Microprocessor Simulator\"",
+      "shortDesc": "Designed and developed a functional microprocessor simulator using Assembly language to understand internal architecture and register management.",
+      "role": "Software Engineer",
+      "fullDesc": "Implemented execution logic for a custom instruction set, enabling processing of arithmetic and control flow operations directly on the simulated hardware. Programmed memory management and processor state visualization modules, optimizing resource usage at the machine language level to ensure efficient execution.",
       "tech": [
         "Assembly (16-bit)"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/Ensamblador.png",
-      "thumb": "img/Ensamblador.png"
+      "mediaSrc": "img/ensamblador.png",
+      "thumb": "img/ensamblador.png"
+    },
+    {
+      "id": "proj-14",
+      "category": [
+        "IoT",
+        "WEB"
+      ],
+      "title": "Academic Project \"ComposTech\"",
+      "shortDesc": "IoT system for composting automation integrating sensors and remote control.",
+      "role": "Backend Developer & Scrum Master",
+      "fullDesc": "Led the development of an IoT system with ESP32-S3 (C++/Arduino). Developed the web interface in React.js, HTML, and CSS for real-time monitoring. Designed the backend architecture with Node.js, Express.js, and AWS for database and critical variables. Implemented automated ventilation and irrigation control, managing with Jira (Scrum) and WBS. Documented detailed engineering and circuits.",
+      "tech": [
+        "C++",
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "AWS",
+        "MySQL",
+        "Jira",
+        "Arduino IDE"
+      ],
+      "mediaType": "image",
+      "mediaSrc": "img/compostech.png",
+      "thumb": "img/compostech.png"
     },
     {
       "id": "proj-15",
       "category": [
-        "IoT", "Fullstack", "Project Management"
+        "WEB",
+        "Game Dev"
       ],
-      "title": "Proyecto Académico \"ComposTech\"img/.png",
-      "shortDesc": "Sistema IoT para la automatización del compostaje integrando sensores y control remoto.",
-      "role": "Líder de Proyecto y Desarrollador",
-      "fullDesc": "Lideré el desarrollo ágil bajo Scrum, coordinando la integración de hardware y software y documentando con Jira. Programé en C++ (Arduino IDE) para la lectura de sensores de humedad y temperatura y el control de actuadores. Desarrollé el backend de la aplicación utilizando AWS para el almacenamiento y procesamiento de datos en la nube, y React.js para crear una interfaz de usuario interactiva y en tiempo real.",
+      "title": "Arcane Codex - Aulify",
+      "shortDesc": "Led the development of an educational video game developed in Unity (C#) and deployed via WebGL, integrating a dynamic web user interface built with React.js.",
+      "role": "Fullstack Developer & Scrum Master",
+      "fullDesc": "Designed and developed the server architecture, implementing a REST API with Node.js, Express.js, and a relational database in MySQL for persistent profile and inventory management. Synchronized real-time client-server data, built an administrative Dashboard for metrics monitoring, and managed the lifecycle under Agile (Scrum) methodologies.",
+      "tech": [
+        "C#",
+        "Unity 3D",
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "MySQL",
+        "Jira"
+      ],
+      "mediaType": "image",
+      "mediaSrc": "img/arcanecoex.png",
+      "thumb": "img/arcanecodex.png"
+    },
+    {
+      "id": "proj-16",
+      "category": [
+        "Robotics"
+      ],
+      "title": "Sumo Robot (Regional Competition)",
+      "shortDesc": "Designed and programmed a remote combat robot using Arduino (C++).",
+      "role": "Robotics Software Developer",
+      "fullDesc": "Performed prototyping and circuit simulations in Tinkercad, optimizing energy consumption and actuator response for the regional competition.",
       "tech": [
         "C++",
-        "React.js",
-        "AWS",
-        "Jira Scrum",
         "Arduino IDE"
       ],
       "mediaType": "image",
@@ -376,18 +443,14 @@
     {
       "id": "proj-17",
       "category": [
-        "Game Development", "Fullstack", "Project Management"
+        "Robotics", "Computer Vision"
       ],
-      "title": "Arcane Codex (Empresa Aulify)",
-      "shortDesc": "Lideré el desarrollo de un videojuego educativo desarrollado en Unity (C#) y desplegado mediante WebGL, integrando una interfaz de usuario web dinámica construida con React.js.",
-      "role": "Líder de Proyecto y Desarrollador Full-Stack",
-      "fullDesc": "Diseñé y desarrollé la arquitectura del servidor, implementando una API REST con Node.js y una base de datos relacional en MySQL para la gestión persistente de perfiles e inventarios. Sincronicé datos en tiempo real cliente-servidor y gestioné el ciclo de vida bajo metodologías Agile (Scrum).",
+      "title": "Autonomous Line Follower Drone (National Competition)",
+      "shortDesc": "Programmed an autonomous navigation system for a drone to participate in a national competition.",
+      "role": "Robotics Software Developer",
+      "fullDesc": "Programmed an autonomous navigation system for a drone using Python and the OpenCV library for edge detection and real-time image processing. Implemented control algorithms for trajectory tracking, successfully participating in a national-level competition.",
       "tech": [
-        "Unity (C#)",
-        "React.js",
-        "Node.js",
-        "MySQL",
-        "Jira Scrum"
+        "Python"
       ],
       "mediaType": "image",
       "mediaSrc": "img/.png",
@@ -396,53 +459,62 @@
     {
       "id": "proj-18",
       "category": [
-        "Robotics"
+        "WEB",
+        "MOVIL"
       ],
-      "title": "Robot Sumo (Competencia Regional)",
-      "shortDesc": "Diseñé y programé un robot de combate remoto utilizando Arduino (C++).",
-      "role": "Diseñador y Desarrollador de Software",
-      "fullDesc": "Desarrollé la lógica de control del robot, implementando algoritmos para la lectura de sensores infrarrojos y ultrasónicos para la detección del oponente y los límites de la pista (Dohyo). Programé las rutinas de movimiento y evasión, optimizando la respuesta de los motores para maniobras rápidas y precisas. Realicé simulaciones mecánicas preliminares en Tinkercad.",
+      "title": "TicketGo - MAC Computadoras",
+      "shortDesc": "Designed and implemented a REST API for a ticket management system for web and mobile applications.",
+      "role": "Backend Developer",
+      "fullDesc": "Implemented the backend in AWS using Node.js and Express.js, ensuring high availability and scalability. Responsible for architecture, development, and backend deployment, ensuring data integrity and efficiency. Managed the project using Agile methodology (Jira) with a React.js frontend and a Kotlin mobile app.",
       "tech": [
-        "Arduino IDE (C++)",
-        "Tinkercad"
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "AWS",
+        "Jira"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/ticketgo.png",
+      "thumb": "img/ticketgo.png"
     },
     {
       "id": "proj-19",
       "category": [
-        "WEB"
+        "AI",
+        "Game Dev"
       ],
-      "title": "MAC Computadoras",
-      "shortDesc": "Diseñó e implementó una API REST para un sistema de gestión de tickets para aplicaciones web y móviles.",
-      "role": "Desarrollador Fullstack",
-      "fullDesc": "Implementó el backend en AWS, garantizando una alta disponibilidad y escalabilidad. Fui responsable de la arquitectura, el desarrollo y la implementación del backend, garantizando la integridad y la eficiencia de los datos, gestionando el proyecto mediante Jira con un frontend React y una aplicación móvil Kotlin.",
+      "title": "Tanuki Sunset Agent - Rewind Games",
+      "shortDesc": "Development of an AI system for a racing video game, integrating Unity ML-Agents for autonomous agent training and a telemetry subsystem (Ghost System) for recording, optimization, and visualization of optimal routes.",
+      "role": "AI Software Engineer",
+      "fullDesc": "Implemented an agent with Unity ML-Agents architecture, configuring vector observations and reward logic. Developed a persistence module (OptimalLineRecorder) with JSON serialization. Created a visualizer (OptimalLineRenderer) using Physics.Raycast for terrain adaptation and trajectory projection.",
       "tech": [
-        "AWS",
-        "React.js",
-        "Kotlin",
-        "API REST",
-        "Jira Scrum"
+        "C#",
+        "Unity 3D",
+        "Unity ML-Agents"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/tanukighost.png",
+      "thumb": "img/tanukighost.png"
     },
     {
       "id": "proj-20",
       "category": [
-        "AI", "Game Development"
+        "WEB"
       ],
-      "title": "Tanuki Sunset Agent - Ghost System",
-      "shortDesc": "Desarrollo de un sistema de IA para un videojuego de carreras, integrando Unity ML-Agents para el entrenamiento de un agente autónomo y un subsistema de telemetría (Ghost System) para grabación, optimización y visualización de rutas óptimas.",
-      "role": "Unity AI Developer",
-      "fullDesc": "Implementé un agente inteligente utilizando la arquitectura de Unity ML-Agents, configurando observaciones vectoriales (Raycasts, velocidades relativas) y una función de recompensa heurística para maximizar la velocidad y evitar colisiones. Desarrollé el 'Ghost System' diseñando una estructura de datos serializable (JSON) para registrar la posición, rotación y variables de estado del agente en cada frame, interpolando estos datos para la reproducción fluida en simulaciones posteriores. Optimicé el rendimiento del Ghost System reduciendo la frecuencia de muestreo y aplicando compresión de datos, mejorando la eficiencia computacional durante la evaluación del terreno y proyección de trayectorias.",
+      "title": "CICACTA DOCSITE - Center for Research in Applied Science and Advanced Technology",
+      "shortDesc": "Created a web system for CICATA aimed at generating certificates and centralizing processes in a single system, streamlining these processes and improving time efficiency.",
+      "role": "Backend Developer & Scrum Master",
+      "fullDesc": "Designed and developed a MySQL database for a certificate generation system. Migrated and adapted the database to Prisma and configured the backend environment with Node.js and Express.js, created REST API endpoints with JavaScript, and documented them with Swagger. Developed the frontend with HTML, CSS, and React.js. Managed the project with Jira using Scrum.",
       "tech": [
-        "C#",
-        "Unity3D",
-        "Unity ML-Agents"
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "MySQL",
+        "Prisma",
+        "Swagger",
+        "Jira"
       ],
       "mediaType": "image",
       "mediaSrc": "img/.png",
@@ -451,60 +523,20 @@
     {
       "id": "proj-21",
       "category": [
-        "Fullstack", "Project Management"
+        "WEB"
       ],
-      "title": "HealthFinder - MHL Hackathon (HackMorelos)",
-      "shortDesc": "Desarrollo de una startup HealthTech con una plataforma web que facilita la búsqueda de medicamentos y servicios clínicos cercanos, comparando precios mediante geolocalización.",
-      "role": "Backend Developer & Scrum Master",
-      "fullDesc": "Lideré la gestión del equipo bajo metodologías ágiles como Scrum para acelerar el desarrollo del MVP del hackathon. Fui el encargado principal de diseñar e implementar toda la arquitectura backend utilizando Python y el microframework Flask. Modelé y desarrollé en MySQL. Implementé lógica algorítmica e integración con Leaflet.",
-      "tech": [
-        "Python",
-        "Flask",
-        "MySQL",
-        "JavaScript",
-        "Leaflet",
-        "Scrum"
-      ],
-      "mediaType": "image",
-      "mediaSrc": "img/teachfinder.png",
-      "thumb": "img/teachfinder.png"
-    },
-    {
-      "id": "proj-22",
-      "category": [
-        "QA", "WEB"
-      ],
-      "title": "Instituto Tecnológico de Estudios Superiores de Monterrey",
-      "shortDesc": "Reestructuré y modernicé un sistema web heredado utilizando una arquitectura basada en Angular, Node.js, Prisma y MySQL.",
-      "role": "Desarrollador Backend",
-      "fullDesc": "Diseñé e implementé API REST para dar soporte a las nuevas funciones del sistema. Documenté los puntos finales utilizando Swagger y utilicé Docker para estandarizar los entornos de desarrollo e implementación. Colaboró con el equipo de frontend para integrar los servicios de backend, mejorando la mantenibilidad, la escalabilidad y la estabilidad del sistema.",
+      "title": "Monterrey Institute of Technology and Higher Education",
+      "shortDesc": "Restructured and modernized a legacy web system using an architecture based on React.js, Node.js, Express.js, Prisma, and MySQL.",
+      "role": "Backend Developer",
+      "fullDesc": "Designed and implemented REST APIs with Node.js and Express.js to support new system features. Developed the frontend layout with HTML, CSS, and React.js. Documented endpoints using Swagger and used Docker to standardize development and deployment environments. Collaborated to integrate backend services, improving maintainability, scalability, and stability.",
       "tech": [
         "TypeScript",
-        "Node.js",
+        "REST API",
         "Prisma",
-        "MySQL",
+        "SQL",
         "Docker",
-        "Swagger"
-      ],
-      "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
-    },
-    {
-      "id": "proj-23",
-      "category": [
-        "WEB", "Project Management"
-      ],
-      "title": "Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada",
-      "shortDesc": "Cree un sistema web para el CICATA, con el objetivo de generar constancias y centralizar los procesos en un solo sistema. Agilizando estos procesos y eficientizando los tiempos.",
-      "role": "Backend Developer & Scrum Master",
-      "fullDesc": "Diseñe y desarrolle una base de datos en MySQL para un sistema que genera constancias. Migre y adapte la base de datos a Prisma y configure el ambiente backend con Node, cree endpoints con JavaScript y los documente con Swagger. Administre el proyecto con Jira usando Scrum.",
-      "tech": [
-        "MySQL",
-        "Prisma",
         "Swagger",
-        "Jira",
-        "Node.js"
+        "Jira"
       ],
       "mediaType": "image",
       "mediaSrc": "img/.png",
