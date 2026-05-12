@@ -290,15 +290,14 @@
     {
       "id": "proj-9",
       "category": [
-        "WEB"
+        "POO"
       ],
       "title": "Academic Project \"Streaming Service\"",
       "shortDesc": "Designed the architecture of a scalable streaming system under the Object-Oriented Programming (OOP) paradigm.",
       "role": "Software Engineer",
       "fullDesc": "Designed the architecture of a scalable streaming system under the Object-Oriented Programming (OOP) paradigm. Generated complete technical documentation through UML Class Diagrams, defining inheritance hierarchies, polymorphism, and encapsulation for user and content management. Included REST API development with Node.js and Express.js for the backend.",
       "tech": [
-        "C++",
-        "POO"
+        "C++"
       ],
       "mediaType": "image",
       "mediaSrc": "img/.png",
@@ -349,8 +348,8 @@
         "Python"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/procesadorimg.png",
+      "thumb": "img/procesadorimg.png"
     },
     {
       "id": "proj-13",
@@ -437,8 +436,8 @@
         "Arduino IDE"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/sumo.png",
+      "thumb": "img/sumo.png"
     },
     {
       "id": "proj-17",
@@ -453,8 +452,8 @@
         "Python"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/dron.png",
+      "thumb": "img/dron.png"
     },
     {
       "id": "proj-18",
@@ -517,8 +516,8 @@
         "Jira"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/micicata.png",
+      "thumb": "img/micicata.png"
     },
     {
       "id": "proj-21",
@@ -539,8 +538,25 @@
         "Jira"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/misaet.png",
+      "thumb": "img/misaet.png"
+    },{
+      "id": "proj-22",
+      "category": [
+        "WEB"
+      ],
+      "title": "Social Service - Tribunal Unitario de Justicia Para Adolecentes",
+      "shortDesc": "",
+      "role": "Fullstack Developer",
+      "fullDesc": "",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "mediaType": "image",
+      "mediaSrc": "img/tujpa.png",
+      "thumb": "img/tujpa.png"
     }
   ]
 }
