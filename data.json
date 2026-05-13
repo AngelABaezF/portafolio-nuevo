@@ -130,8 +130,8 @@
         "Arduino IDE"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/RobotServicio.png",
+      "thumb": "img/RobotServicio.png"
     },
     {
       "id": "proj-1",
@@ -152,9 +152,9 @@
         "REST API",
         "MySQL"
       ],
-      "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaType": "images",
+      "mediaSrc": ["img/giramo.png", "img/giramo2.png"],
+      "thumb": "img/giramo.png"
     },
     {
       "id": "proj-2",
@@ -168,8 +168,12 @@
       "tech": [
         "Python"
       ],
-      "mediaType": "image",
-      "mediaSrc": "img/halo1.png",
+      "mediaType": "images",
+      "mediaSrc": [
+        "img/halo1.png",
+        "img/halo2.png",
+        "img/halo3.png"
+      ],
       "thumb": "img/halo1.png"
     },
     {
@@ -185,8 +189,8 @@
         "Python"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/doomsday.png",
+      "thumb": "img/doomsday.png"
     },
     {
       "id": "proj-4",
@@ -232,28 +236,20 @@
     {
       "id": "proj-6",
       "category": [
-        "WEB3"
+        "WEB"
       ],
-      "title": "Hubby, WEB3 Startup",
-      "shortDesc": "Web3 project managed with Scrum, implementing DApps and an NFT-based recognition system.",
-      "role": "Software Engineer",
-      "fullDesc": "Directed backend, frontend, and database teams for a Web3 project managed with Scrum. Developed blockchain-based solutions using Solidity, Rust, Go, Node.js, and JavaScript. Implemented DApps and an NFT-based recognition system.",
+      "title": "Social Service - Tribunal Unitario de Justicia Para Adolecentes",
+      "shortDesc": "",
+      "role": "Fullstack Developer",
+      "fullDesc": "",
       "tech": [
-        "Solidity",
-        "Rust",
-        "Go",
         "HTML",
         "CSS",
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "JavaScript",
-        "REST API",
-        "Jira"
+        "JavaScript"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": "img/tujpa.png",
+      "thumb": "img/tujpa.png"
     },
     {
       "id": "proj-7",
@@ -300,8 +296,8 @@
         "C++"
       ],
       "mediaType": "image",
-      "mediaSrc": "img/.png",
-      "thumb": "img/.png"
+      "mediaSrc": ["img/POO.png", "img/POO2.png"],
+      "thumb": "img/POO.png"
     },
     {
       "id": "proj-10",
@@ -540,23 +536,6 @@
       "mediaType": "image",
       "mediaSrc": "img/misaet.png",
       "thumb": "img/misaet.png"
-    },{
-      "id": "proj-22",
-      "category": [
-        "WEB"
-      ],
-      "title": "Social Service - Tribunal Unitario de Justicia Para Adolecentes",
-      "shortDesc": "",
-      "role": "Fullstack Developer",
-      "fullDesc": "",
-      "tech": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "mediaType": "image",
-      "mediaSrc": "img/tujpa.png",
-      "thumb": "img/tujpa.png"
     }
   ]
 }
