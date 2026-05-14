@@ -162,12 +162,16 @@ const Timeline = (() => {
   const tlDesc   = document.getElementById('tlDesc');
   const tlLink   = document.getElementById('tlLink');
 
-  let activeNode = null;   // nodo activo
-  let sortDir    = 'asc';  // orden actual
-  let rawItems   = [];     // datos originales
+  let activeNode  = null;  // nodo DOM activo
+  let activeIndex = -1;    // índice dentro de sortedItems
+  let sortDir     = 'asc'; // orden actual
+  let rawItems    = [];    // datos originales
+  let sortedItems = [];    // items en el orden visible actual
 
   // ── Construcción del inner track (se llama en init y en cada re-sort) ────
   function buildTrack(items) {
+    sortedItems = items; // guarda referencia para navegación prev/next
+
     const oldInner = track.querySelector('.timeline-inner');
     if (oldInner) oldInner.remove();
 
@@ -180,10 +184,10 @@ const Timeline = (() => {
       node.setAttribute('role', 'button');
       node.setAttribute('tabindex', '0');
       node.setAttribute('aria-label', item.title);
+      node.dataset.idx = i; // índice para localizar el nodo desde prev/next
 
       const dot = document.createElement('div');
       dot.className = 'tl-dot';
-      // Cicla el delay entre 0-7 para no acumular retrasos enormes
       dot.style.animationDelay = `${(i % 8) * 0.35}s`;
 
       const label = document.createElement('span');
@@ -192,7 +196,7 @@ const Timeline = (() => {
 
       node.append(dot, label);
 
-      const openCard = () => showCard(item, node);
+      const openCard = () => showCard(i); // pasa índice en lugar de objeto+nodo
       node.addEventListener('click', openCard);
       node.addEventListener('keydown', e => {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openCard(); }
@@ -204,15 +208,43 @@ const Timeline = (() => {
     track.appendChild(inner);
   }
 
+  // ── Helpers de navegación ─────────────────────────────────────────────────
+
+  /** Marca el nodo en el índice dado como activo (amarillo) y desmarca el resto */
+  function setActiveDot(idx) {
+    track.querySelectorAll('.tl-node').forEach(n => n.classList.remove('tl-node--active'));
+    const target = track.querySelector(`.tl-node[data-idx="${idx}"]`);
+    if (target) {
+      target.classList.add('tl-node--active');
+      // Scroll horizontal del track para que el nodo activo sea visible
+      target.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+  }
+
+  /** Actualiza el estado habilitado/deshabilitado de los botones prev/next */
+  function updateNavBtns() {
+    const btnPrev = card.querySelector('.tl-nav-prev');
+    const btnNext = card.querySelector('.tl-nav-next');
+    if (!btnPrev || !btnNext) return;
+    btnPrev.disabled = activeIndex <= 0;
+    btnNext.disabled = activeIndex >= sortedItems.length - 1;
+  }
+
   // ── Mostrar tarjeta ───────────────────────────────────────────────────────
-  function showCard(item, node) {
-    // Toggle: mismo nodo → cierra
-    if (activeNode === node && !card.classList.contains('hidden')) {
+  function showCard(idx) {
+    const item = sortedItems[idx];
+    if (!item) return;
+
+    // Toggle: mismo índice y tarjeta visible → cierra
+    if (activeIndex === idx && !card.classList.contains('hidden')) {
       hideCard();
       return;
     }
-    activeNode = node;
 
+    activeIndex = idx;
+    activeNode  = track.querySelector(`.tl-node[data-idx="${idx}"]`);
+
+    // Rellena contenido
     tlDate.textContent  = item.date;
     tlTitle.textContent = item.title;
     tlDesc.textContent  = item.description || '';
@@ -224,16 +256,23 @@ const Timeline = (() => {
       tlLink.classList.add('hidden');
     }
 
-    // Muestra la tarjeta inline (sin overlay ni scroll-lock)
+    // Marca el punto activo en amarillo
+    setActiveDot(idx);
+
+    // Actualiza estado de botones prev/next
+    updateNavBtns();
+
+    // Muestra la tarjeta inline
     card.classList.remove('hidden');
-    // Scroll suave hasta la tarjeta para que sea visible sin buscarla
     setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
   }
 
   // ── Ocultar tarjeta ───────────────────────────────────────────────────────
   function hideCard() {
     card.classList.add('hidden');
-    activeNode = null;
+    track.querySelectorAll('.tl-node').forEach(n => n.classList.remove('tl-node--active'));
+    activeNode  = null;
+    activeIndex = -1;
   }
 
   // ── Barra de ordenamiento ─────────────────────────────────────────────────
@@ -260,7 +299,7 @@ const Timeline = (() => {
       );
 
       buildTrack(sortItems(rawItems, sortDir));
-      hideCard(); // cierra tarjeta abierta si existía
+      hideCard(); // cierra tarjeta y limpia estado activo
     });
 
     // Inserta la barra justo antes del track de la línea de tiempo
@@ -284,8 +323,29 @@ const Timeline = (() => {
     buildSortBar(section);
     buildTrack(sortItems(rawItems, sortDir));
 
-    // Mueve la tarjeta al interior de la sección (flujo normal del DOM),
-    // justo después del track, para que aparezca debajo de la línea de tiempo.
+    // Inyecta botones de navegación prev/next dentro de la tarjeta,
+    // antes del botón de cerrar existente
+    const navBar = document.createElement('div');
+    navBar.className = 'tl-nav-bar';
+    navBar.innerHTML = `
+      <button class="tl-nav-btn tl-nav-prev" aria-label="Evento anterior" disabled>
+        ◀ Anterior
+      </button>
+      <button class="tl-nav-btn tl-nav-next" aria-label="Evento siguiente" disabled>
+        Siguiente ▶
+      </button>
+    `;
+    card.appendChild(navBar);
+
+    // Eventos de navegación
+    navBar.querySelector('.tl-nav-prev').addEventListener('click', () => {
+      if (activeIndex > 0) showCard(activeIndex - 1);
+    });
+    navBar.querySelector('.tl-nav-next').addEventListener('click', () => {
+      if (activeIndex < sortedItems.length - 1) showCard(activeIndex + 1);
+    });
+
+    // Mueve la tarjeta al interior de la sección (flujo normal del DOM)
     section.appendChild(card);
 
     // Botón × de la tarjeta
@@ -457,12 +517,71 @@ const ProjectDetail = (() => {
   let isOpen = false, currentId = null;
 
   function buildMedia(p) {
-    if (p.mediaType === 'youtube')
-      return `<iframe src="https://www.youtube.com/embed/${p.mediaSrc}?rel=0&modestbranding=1"
+    // ── YouTube ──────────────────────────────────────────────────────────────
+    if (p.mediaType === 'youtube') {
+      return `<iframe
+        src="https://www.youtube.com/embed/${p.mediaSrc}?rel=0&modestbranding=1"
         title="${p.title}"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>`;
-    return `<img src="${p.mediaSrc}" alt="${p.title}" loading="lazy" />`;
+    }
+
+    // ── Arreglo de imágenes → carrusel ───────────────────────────────────────
+    if (p.mediaType === 'images' && Array.isArray(p.mediaSrc) && p.mediaSrc.length > 1) {
+      const carouselId = `carousel-${p.id}`;
+
+      const indicators = p.mediaSrc.map((_, i) => `
+        <button
+          type="button"
+          class="sw-carousel-indicator ${i === 0 ? 'active' : ''}"
+          data-idx="${i}"
+          aria-label="Slide ${i + 1}">
+        </button>`).join('');
+
+      const slides = p.mediaSrc.map((src, i) => `
+        <div class="sw-carousel-item ${i === 0 ? 'active' : ''}">
+          <img src="${src}" alt="${p.title} — imagen ${i + 1}" loading="lazy" />
+        </div>`).join('');
+
+      return `
+        <div class="sw-carousel" id="${carouselId}" data-active="0">
+          <div class="sw-carousel-track">${slides}</div>
+          <button class="sw-carousel-ctrl sw-carousel-prev" aria-label="Anterior">&#8249;</button>
+          <button class="sw-carousel-ctrl sw-carousel-next" aria-label="Siguiente">&#8250;</button>
+          <div class="sw-carousel-indicators">${indicators}</div>
+        </div>`;
+    }
+
+    // ── Imagen única (string o array de 1 elemento) ──────────────────────────
+    const src = Array.isArray(p.mediaSrc) ? p.mediaSrc[0] : p.mediaSrc;
+    return `<img src="${src}" alt="${p.title}" loading="lazy" />`;
+  }
+
+  /** Inicializa el carrusel Star Wars inyectado en el panel */
+  function initCarousel(container) {
+    const carousel    = container.querySelector('.sw-carousel');
+    if (!carousel) return;
+
+    const trackEl     = carousel.querySelector('.sw-carousel-track');
+    const items       = carousel.querySelectorAll('.sw-carousel-item');
+    const indicators  = carousel.querySelectorAll('.sw-carousel-indicator');
+    const btnPrev     = carousel.querySelector('.sw-carousel-prev');
+    const btnNext     = carousel.querySelector('.sw-carousel-next');
+    let current       = 0;
+
+    function goTo(idx) {
+      items[current].classList.remove('active');
+      indicators[current].classList.remove('active');
+      current = (idx + items.length) % items.length;
+      items[current].classList.add('active');
+      indicators[current].classList.add('active');
+    }
+
+    btnPrev.addEventListener('click', () => goTo(current - 1));
+    btnNext.addEventListener('click', () => goTo(current + 1));
+    indicators.forEach(ind =>
+      ind.addEventListener('click', () => goTo(+ind.dataset.idx))
+    );
   }
 
   function buildTech(arr) {
@@ -475,6 +594,8 @@ const ProjectDetail = (() => {
     pdMedia.innerHTML   = buildMedia(p);
     pdDesc.textContent  = p.fullDesc;
     pdTech.innerHTML    = buildTech(p.tech);
+    // Si se generó un carrusel, inicializa su lógica de navegación
+    initCarousel(pdMedia);
     if (cb) cb();
   }
 

@@ -1,129 +1,134 @@
 {
-  "name": "Angel Alexander Báez Flores",
+  "name": "Ángel Alexander Báez Flores",
   "linkedinUrl": "https://linkedin.com/in/ángel-alexander-báez-flores",
   "whatsappUrl": "https://wa.me/527775951372",
   "email": "angel.alexanderbaezflores@gmail.com",
   "photo": "img/foto_perfil.jpg",
-  "intro": "I am a software developer with a strong interest in full-stack development, backend architectures, and artificial intelligence. Passionate about building solutions that combine technical elegance with real-world impact. I believe that code, like the Force, connects the entire digital universe.",
+  "intro": "Soy un desarrollador de software con gran interés en el desarrollo full-stack, arquitecturas backend y la inteligencia artificial. Apasionado por construir soluciones que combinan elegancia técnica con impacto real. Creo que el código, como la Fuerza, conecta todo el universo digital.",
   "timeline": [
     {
       "date": "Aug 2020",
-      "title": "Admission to CECyTE",
-      "description": "Beginning of my upper secondary education studies at the College of Scientific and Technological Studies (CECyT).",
-      "link": "https://drive.google.com/file/d/1WUiutxbMCjTD3KlJRFYtYspi8iUoklRW/view?usp=drive_link"
-    },
-    {
-      "date": "Mar 2022",
-      "title": "Social Service – RLCR V1.0",
-      "description": "Completion of Social Service with the RLCR v1.0 project.",
-      "link": "https://drive.google.com/file/d/1Ky_tjOFoOjySAlFu-EN8Dh6tk2C8XVuM/view?usp=sharing"
+      "title": "Admisión al CECyT",
+      "description": "Inicio de mis estudios de nivel medio superior en el Colegio de Estudios Científicos y Tecnológicos.",
+      "link": " "
     },
     {
       "date": "Mar 2023",
-      "title": "3rd Place Award – Science Fair",
-      "description": "Third Place recognition at the national CECyT Science Fair.",
-      "link": "https://drive.google.com/file/d/1F2953DvED0es-PFOif8kFCH5uAAm19iI/view?usp=sharing"
-    },
-    {
-      "date": "Mar 2023",
-      "title": "Backend Certification",
-      "description": "Certification awarded by the Carlos Slim Foundation on the Capacítate para el Empleo platform.",
-      "link": "https://drive.google.com/file/d/1G05VN3IZNngrnETEsu7C53lgFl1GLNHB/view?usp=sharing"
-    },
-    {
-      "date": "Apr 2023",
-      "title": "Frontend Certification",
-      "description": "Certification awarded by the Carlos Slim Foundation on the Capacítate para el Empleo platform.",
-      "link": "https://drive.google.com/file/d/1vJSDo5CfYSN3PC77Vs3eGJx9JG_0nkJx/view?usp=sharing"
+      "title": "Reconocimiento al Tercer Lugar - Feria de Ciencias",
+      "description": "Reconocimiento al Tercer Lugar - Feria de Ciencias nacional del CECyT",
+      "link": "https://drive.google.com/file/d/1wszXNjqhgnFyXseEWkkTmw2_lwtD8Vfh/view?usp=sharing"
     },
     {
       "date": "Jun 2023",
-      "title": "Graduated from CECyT as Programming Technician",
-      "description": "Completion of high school studies with a specialization as Programming Technician.",
-      "link": "https://drive.google.com/file/d/11fI-Q2QpWXGJtDRL7kXrpRvszCd2f_Y1/view?usp=sharing"
-    },
-    {
-      "date": "Jun 2023",
-      "title": "IT Security Technician Certification (Risk Analysis)",
-      "description": "Certification awarded by the Carlos Slim Foundation on the Capacítate para el Empleo platform.",
-      "link": "https://drive.google.com/file/d/1uCDaLkK5bYTpMj_m4NX6ZiTa2DsxEhGj/view?usp=sharing"
+      "title": "Egreso del CECyT como Tecnico en Programación",
+      "description": "Conclusión de mis estudios de preparatoria como Tecnico en Programación",
+      "link": " "
     },
     {
       "date": "Aug 2023",
-      "title": "Admitted to Monterrey Institute of Technology and Higher Education",
-      "description": "Enrolled in the Computer Technologies Engineering degree program.",
-      "link": "https://drive.google.com/file/d/1PfELfSGALDq_J14ZTaHdA8vBZaZzrxkE/view?usp=sharing"
+      "title": "Admisión al Instituto Tecnologico de Estudios Superiores de Monterrey",
+      "description": "Ingreso a la carrera de Ingeniería en Tecnologías Computacionales.",
+      "link": " "
     },
     {
-      "date": "Oct 2023",
-      "title": "HACK-ATHON 12th Edition",
-      "description": "Participation in the 12th Edition of the Morelos HACK-ATHON by Major League Hacking.",
-      "link": "https://drive.google.com/file/d/1ZmeCDp7vdoxOlwZufdmJa_4_3NhZQfIy/view?usp=sharing"
+      "date": "Abr 2023",
+      "title": "Certificación en Frontend",
+      "description": "Certificación otorgada por la Fundacion Carlos Slim en la plataforma Capacitate para el Empleo.",
+      "link": "https://drive.google.com/file/d/1vJSDo5CfYSN3PC77Vs3eGJx9JG_0nkJx/view?usp=sharing"
     },
     {
-      "date": "Dec 2022",
-      "title": "Professional Internship at Giramo S.A. de C.V.",
-      "description": "Completion of Professional Internship at Giramo S.A. de C.V. as a Fullstack Developer.",
-      "link": "https://drive.google.com/file/d/1c855k6g_ghqm-qMU-xlBN8P8cJsBsxDk/view?usp=sharing"
+      "date": "Mar 2023",
+      "title": "Certificación en Backend",
+      "description": "Certificación otorgada por la Fundacion Carlos Slim en la plataforma Capacitate para el Empleo.",
+      "link": "https://drive.google.com/file/d/1G05VN3IZNngrnETEsu7C53lgFl1GLNHB/view?usp=sharing"
     },
     {
-      "date": "May 2024",
-      "title": "HACK-ATHON 13th Edition",
-      "description": "Participation in the 13th Edition of the Morelos HACK-ATHON by Major League Hacking.",
-      "link": "https://drive.google.com/file/d/1U6sdgnwWG7xnTEjPurFaRU-2uB4fIG7y/view?usp=sharing"
-    },
-    {
-      "date": "Mar 2025",
-      "title": "Scrum Fundamentals Certification",
-      "description": "Certification awarded by SCRUMstudy.",
-      "link": "https://drive.google.com/file/d/1Ygz7U69JBZ5jOj-RpfUElKkwfKe6sGB9/view?usp=sharing"
-    },
-    {
-      "date": "Jun 2025",
-      "title": "Aulify – Arcane Codex Recognition",
-      "description": "Recognition for outstanding performance on the Arcane Codex project, awarded by Aulify.",
-      "link": "https://drive.google.com/file/d/1_UqUYRW-3FJef216V3Hp7O4tDtzlEKbS/view?usp=sharing"
-    },
-    {
-      "date": "Jul 2025",
-      "title": "Project Management & Agile Methodology Certification",
-      "description": "Certification awarded by Santander Open Academy.",
-      "link": "https://drive.google.com/file/d/1CdhdTFyd9yTpf1pnF5ZaL8A_zZx_n3-w/view?usp=sharing"
+      "date": "Jun 2023",
+      "title": "Certificación de Técnico en seguridad informática (análisis de riesgos)",
+      "description": "Certificación otorgada por la Fundacion Carlos Slim en la plataforma Capacitate para el Empleo.",
+      "link": "https://drive.google.com/file/d/1uCDaLkK5bYTpMj_m4NX6ZiTa2DsxEhGj/view?usp=sharing"
     },
     {
       "date": "Oct 2025",
-      "title": "Backend Developer at MAC Computadoras",
-      "description": "Design and implementation of a scalable REST API on AWS for a ticket management system.",
+      "title": "Desarrollador Backend en MAC Computadoras",
+      "description": "Diseño e implementación de una API REST escalable en AWS para un sistema de gestión de tickets.",
       "link": "https://drive.google.com/file/d/1AtJw4Czw8LJTFCcf9557X9KNkX-qjd5F/view?usp=sharing"
     },
     {
-      "date": "Apr 2026",
-      "title": "Copilot Certification: Master AI in Microsoft 365",
-      "description": "Certification awarded by Santander Open Academy.",
+      "date": "Mar 2025",
+      "title": "Certificación Scrum Fundamentals",
+      "description": "Certificación otorgada por SCRUMstudy.",
+      "link": "https://drive.google.com/file/d/1Ygz7U69JBZ5jOj-RpfUElKkwfKe6sGB9/view?usp=sharing"
+    },
+    {
+      "date": "Abr 2026",
+      "title": "Certificación Copilot: domina la IA en Microsoft 365",
+      "description": "Certificación otorgada por Santander Open Academy.",
       "link": "https://drive.google.com/file/d/1FtanrIypxcuCqvDbtTF2rJi1wzOdYRec/view?usp=sharing"
     },
     {
-      "date": "Apr 2026",
-      "title": "Responsible Prompting Certification: Maximize AI in Your Business",
-      "description": "Certification awarded by Santander Open Academy.",
+      "date": "Abr 2026",
+      "title": "Certificación en Prompting responsable: maximiza la IA en tu negocio",
+      "description": "Certificación otorgada por Santander Open Academy.",
       "link": "https://drive.google.com/file/d/1Ei5Vj-hKWU0DBm5y1lC_8tVDtKN3e8Rb/view?usp=sharing"
     },
     {
-      "date": "Apr 2026",
-      "title": "Standard Scholarship – Talent Land MX 2026",
-      "description": "Scholarship awarded by the Secretariat of Science, Humanities, Technology and Innovation.",
+      "date": "Jul 2025",
+      "title": "Certificación en Gestión de Proyectos y Fundamentos de metodología Agile",
+      "description": "Certificación otorgada por Santander Open Academy.",
+      "link": "https://drive.google.com/file/d/1CdhdTFyd9yTpf1pnF5ZaL8A_zZx_n3-w/view?usp=sharing"
+    },
+    {
+      "date": "Abr 2026",
+      "title": "Beca Estándar - Talent Land MX 2026",
+      "description": "Beca otorgada por otorgada por la Secretaría de Ciencias Humanidades Tecnología e Innovación.",
       "link": "https://drive.google.com/file/d/1ZmeCDp7vdoxOlwZufdmJa_4_3NhZQfIy/view?usp=sharing"
+    },
+    {
+      "date": "Oct 2023",
+      "title": "HACK-ATHON 12° EDICION",
+      "description": "Participacion en el HACK-ATHON 12° EDICION de Morelos de la Major League Hacking",
+      "link": "https://drive.google.com/file/d/1ZmeCDp7vdoxOlwZufdmJa_4_3NhZQfIy/view?usp=sharing"
+    },
+    {
+      "date": "May 2024",
+      "title": "HACK-ATHON 13° EDICION",
+      "description": "Participacion en el HACK-ATHON 13° EDICION de Morelos de la Major League Hacking",
+      "link": "https://drive.google.com/file/d/1U6sdgnwWG7xnTEjPurFaRU-2uB4fIG7y/view?usp=sharing"
+    },
+    {
+      "date": "Dic 2022",
+      "title": "Practicas Profesionales Giramo S.A. de C.V.",
+      "description": "Liberacion de las Practicas Profesionales en la empresa Giramo S.A. de C.V. como Desarrollador Fullstack",
+      "link": "https://drive.google.com/file/d/1c855k6g_ghqm-qMU-xlBN8P8cJsBsxDk/view?usp=sharing"
+    },
+    {
+      "date": "Mar 2022",
+      "title": "Servicio Social RLCR V1.0",
+      "description": "Liberacion del Servicio Social en con el proyecto RLCR v1.0",
+      "link": "https://drive.google.com/file/d/1Ky_tjOFoOjySAlFu-EN8Dh6tk2C8XVuM/view?usp=sharing"
+    },
+    {
+      "date": "Jun 2025",
+      "title": "Aulify - Arcane Codex",
+      "description": "Reconocimiento por el desempeño realizado en el Proyecto Arcane Codex otorgado por la empresa Aulify",
+      "link": "https://drive.google.com/file/d/1_UqUYRW-3FJef216V3Hp7O4tDtzlEKbS/view?usp=sharing"
     }
   ],
   "projects": [
     {
       "id": "proj-0",
-      "category": ["Robotics"],
+      "category": [
+        "Robotics"
+      ],
       "title": "Social Service Project (Sweeper Robot)",
       "shortDesc": "Designed and modeled a remote-controlled sweeper robot prototype, integrating circular economy principles by using recycled materials and technical simulation in Tinkercad.",
       "role": "Robotics Software Developer",
       "fullDesc": "Programmed the central processing unit based on the ESP32 microcontroller, using C++ (Arduino IDE) to manage motor control logic, wireless connectivity, and the response of cleaning actuators. Implemented communication protocols for remote control and designed the electronic circuit architecture. Documented the hardware development cycle.",
-      "tech": ["Tinkercad", "Arduino IDE"],
+      "tech": [
+        "Tinkercad",
+        "Arduino IDE"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/RobotServicio.png",
       "thumb": "img/RobotServicio.png",
@@ -132,40 +137,66 @@
     },
     {
       "id": "proj-1",
-      "category": ["WEB"],
+      "category": [
+        "WEB"
+      ],
       "title": "Professional Internship at Giramo S.A. de C.V.",
       "shortDesc": "Digitized the construction registration processes by developing a technical web application, optimizing the administrative data flow.",
       "role": "Software Engineer",
       "fullDesc": "Designed and managed a robust relational database in MySQL using SQL queries, ensuring the integrity and availability of critical project information. Documented the software lifecycle and version control, maintaining a detailed record of modifications and technical requirements.",
-      "tech": ["HTML", "CSS", "React.js", "Node.js", "Express.js", "JavaScript", "REST API", "MySQL"],
+      "tech": [
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "MySQL"
+      ],
       "mediaType": "images",
-      "mediaSrc": ["img/giramo.png", "img/giramo2.png"],
+      "mediaSrc": [
+        "img/giramo.png",
+        "img/giramo2.png"
+      ],
       "thumb": "img/giramo.png",
       "startDate": "Sep 2022",
       "endDate": "Dec 2022"
     },
     {
       "id": "proj-2",
-      "category": ["Game Dev"],
+      "category": [
+        "Game Dev"
+      ],
       "title": "Academic Project \"Halo 2D Adventures\"",
       "shortDesc": "Development of a 2D game engine from scratch.",
       "role": "Software Engineer",
       "fullDesc": "Developed a 2D game engine from scratch using Python and the Pygame library, implementing collision logic, animated sprites, and game state management. Applied Object-Oriented Programming (OOP) principles to structure characters, levels, and combat systems.",
-      "tech": ["Python"],
+      "tech": [
+        "Python"
+      ],
       "mediaType": "images",
-      "mediaSrc": ["img/halo1.png", "img/halo2.png", "img/halo3.png"],
+      "mediaSrc": [
+        "img/halo1.png",
+        "img/halo2.png",
+        "img/halo3.png"
+      ],
       "thumb": "img/halo1.png",
       "startDate": "Aug 2023",
       "endDate": "Oct 2023"
     },
     {
       "id": "proj-3",
-      "category": ["Data Simulation"],
+      "category": [
+        "Data Simulation"
+      ],
       "title": "Academic Project \"DoomsDay\"",
       "shortDesc": "Stochastic simulation in Python to calculate the probability of asteroid impact, based on universal gravitation laws.",
       "role": "Simulation Engineer",
       "fullDesc": "Programmed a stochastic simulation in Python to calculate the probability of asteroid impact, based on universal gravitation laws and orbital mechanics. Analyzed multiple physical variables (mass, trajectory, velocity) to generate predictive models on terrestrial risk scenarios.",
-      "tech": ["Python"],
+      "tech": [
+        "Python"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/doomsday.png",
       "thumb": "img/doomsday.png",
@@ -174,12 +205,16 @@
     },
     {
       "id": "proj-4",
-      "category": ["Data Simulation"],
+      "category": [
+        "Data Simulation"
+      ],
       "title": "Academic Project \"Bungee Jumping\"",
       "shortDesc": "Designed and developed a simulator in MATLAB to model a person's bungee jump, analyzing the physics of motion.",
       "role": "Simulation Engineer",
       "fullDesc": "Implemented mathematical models considering free fall, the elastic force of the rope (Hooke's Law), and air resistance to calculate critical variables such as position, velocity, and acceleration using second-order differential equations. Programmed an interactive graphical interface allowing parameter adjustments and used numerical methods to predict the maximum stretch point and avoid collisions.",
-      "tech": ["MATLAB"],
+      "tech": [
+        "MATLAB"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/bungee.png",
       "thumb": "img/bungee.png",
@@ -188,12 +223,25 @@
     },
     {
       "id": "proj-5",
-      "category": ["WEB"],
-      "title": "HealthFinder – MLH Hackathon (HackMorelos)",
+      "category": [
+        "WEB"
+      ],
+      "title": "HealthFinder - MLH Hackathon (HackMorelos)",
       "shortDesc": "Development of a HealthTech startup with a web platform that facilitates the search for nearby medications and clinical services, comparing prices through geolocation.",
       "role": "Backend Developer & Scrum Master",
       "fullDesc": "Led team management under agile methodologies like Scrum to accelerate the MVP development of the hackathon. Was the main person in charge of designing and implementing the entire backend architecture using Node.js and Express.js. Modeled and developed in MySQL. Implemented algorithmic logic and integration with Leaflet.",
-      "tech": ["HTML", "CSS", "React.js", "Node.js", "Express.js", "JavaScript", "REST API", "MySQL", "Leaflet", "Jira"],
+      "tech": [
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "MySQL",
+        "Leaflet",
+        "Jira"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/HealthFinder.png",
       "thumb": "img/HealthFinder.png",
@@ -202,12 +250,18 @@
     },
     {
       "id": "proj-6",
-      "category": ["WEB"],
-      "title": "Social Service – Unitary Court of Justice for Adolescents",
-      "shortDesc": "Web system developed for the Unitary Court of Justice for Adolescents to streamline internal processes.",
+      "category": [
+        "WEB"
+      ],
+      "title": "Social Service - Tribunal Unitario de Justicia Para Adolecentes",
+      "shortDesc": "",
       "role": "Fullstack Developer",
-      "fullDesc": "Developed and maintained the web system for the Unitary Court of Justice for Adolescents, building features to support internal administrative workflows using HTML, CSS, and JavaScript.",
-      "tech": ["HTML", "CSS", "JavaScript"],
+      "fullDesc": "",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/tujpa.png",
       "thumb": "img/tujpa.png",
@@ -216,12 +270,16 @@
     },
     {
       "id": "proj-7",
-      "category": ["Data Simulation"],
+      "category": [
+        "Data Simulation"
+      ],
       "title": "Academic Project \"Volcanic Eruption\"",
-      "shortDesc": "Computational simulation oriented to civil protection, modeling the trajectory of volcanic projectiles to determine the radius of a safe zone during an eruption.",
+      "shortDesc": "Computational simulation oriented to civil protection modeling the trajectory of volcanic projectiles to determine the radius of a safe zone facing an eruption.",
       "role": "Simulation Engineer",
       "fullDesc": "Developed a numerical model in MATLAB to simulate the ballistic trajectory of volcanic projectiles, considering air resistance and variable gravity. Used differential equation resolution methods to visualize the reach and dispersion of materials in different eruptive scenarios.",
-      "tech": ["MATLAB"],
+      "tech": [
+        "MATLAB"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/erupcionvolcanica.png",
       "thumb": "img/erupcionvolcanica.png",
@@ -230,12 +288,16 @@
     },
     {
       "id": "proj-8",
-      "category": ["Data Simulation"],
+      "category": [
+        "Data Simulation"
+      ],
       "title": "Academic Project \"Magnetic Brake\"",
       "shortDesc": "Designed a physical simulation on deceleration by Eddy Currents, modeling the electromagnetic braking of an amusement park gondola.",
       "role": "Simulation Engineer",
       "fullDesc": "Designed a physical simulation in MATLAB on deceleration by Eddy Currents, modeling the electromagnetic braking of an amusement park gondola. Implemented mathematical models based on Faraday's and Lenz's Laws to optimize the efficiency and safety of the braking system.",
-      "tech": ["MATLAB"],
+      "tech": [
+        "MATLAB"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/frenomagnetico.png",
       "thumb": "img/frenomagnetico.png",
@@ -244,26 +306,37 @@
     },
     {
       "id": "proj-9",
-      "category": ["POO"],
+      "category": [
+        "POO"
+      ],
       "title": "Academic Project \"Streaming Service\"",
       "shortDesc": "Designed the architecture of a scalable streaming system under the Object-Oriented Programming (OOP) paradigm.",
       "role": "Software Engineer",
       "fullDesc": "Designed the architecture of a scalable streaming system under the Object-Oriented Programming (OOP) paradigm. Generated complete technical documentation through UML Class Diagrams, defining inheritance hierarchies, polymorphism, and encapsulation for user and content management. Included REST API development with Node.js and Express.js for the backend.",
-      "tech": ["C++"],
+      "tech": [
+        "C++"
+      ],
       "mediaType": "image",
-      "mediaSrc": ["img/POO.png", "img/POO2.png"],
+      "mediaSrc": [
+        "img/POO.png",
+        "img/POO2.png"
+      ],
       "thumb": "img/POO.png",
       "startDate": "Jan 2024",
       "endDate": "Jun 2024"
     },
     {
       "id": "proj-10",
-      "category": ["Data Simulation"],
+      "category": [
+        "Data Simulation"
+      ],
       "title": "Academic Project \"Malaria Propagation\"",
       "shortDesc": "Designed and developed a mathematical model in MATLAB to simulate the transmission dynamics of malaria between mosquitoes and humans using the Ross-Macdonald epidemiological model.",
       "role": "Simulation Engineer",
       "fullDesc": "Implemented a system of ordinary differential equations (ODEs) to analyze how variables like bite rate and recovery affect the percentage of infected population over time. Programmed a computational simulation to predict the disease's behavior and evaluate the effectiveness of public health interventions.",
-      "tech": ["MATLAB"],
+      "tech": [
+        "MATLAB"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/malaria.png",
       "thumb": "img/malaria.png",
@@ -272,12 +345,16 @@
     },
     {
       "id": "proj-11",
-      "category": ["Data Simulation"],
+      "category": [
+        "Data Simulation"
+      ],
       "title": "Academic Project \"Hyperbolic Paraboloid\"",
       "shortDesc": "Designed and developed a computational simulation in MATLAB for the architectural modeling of a chapel, using hyperbolic paraboloid geometry to optimize structural efficiency.",
       "role": "Simulation Engineer",
       "fullDesc": "Implemented algorithms based on triple integrals to accurately calculate the required concrete volume and internal air volume for HVAC systems. Programmed a graphical interface for 3D visualization of the structure and developed a calculation module for optimizing formwork and structural supports.",
-      "tech": ["MATLAB"],
+      "tech": [
+        "MATLAB"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/paraboloidehiperbolico.png",
       "thumb": "img/paraboloidehiperbolico.png",
@@ -286,12 +363,16 @@
     },
     {
       "id": "proj-12",
-      "category": ["Computer Vision"],
+      "category": [
+        "Computer Vision"
+      ],
       "title": "Academic Project \"Image Processor\"",
       "shortDesc": "Comparative study and application development to evaluate edge detection algorithms in digital images based on performance and accuracy.",
       "role": "Software Engineer",
       "fullDesc": "Developed an application in Python implementing computer vision algorithms (Canny, Sobel, Prewitt, Roberts) with Gaussian kernels and non-maximum suppression. Designed a GUI with Tkinter and optimized the system with dynamic binarization using the Roberts algorithm.",
-      "tech": ["Python"],
+      "tech": [
+        "Python"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/procesadorimg.png",
       "thumb": "img/procesadorimg.png",
@@ -300,12 +381,16 @@
     },
     {
       "id": "proj-13",
-      "category": ["Embedded Systems"],
+      "category": [
+        "Embedded Systems"
+      ],
       "title": "Academic Project \"Microprocessor Simulator\"",
       "shortDesc": "Designed and developed a functional microprocessor simulator using Assembly language to understand internal architecture and register management.",
       "role": "Software Engineer",
       "fullDesc": "Implemented execution logic for a custom instruction set, enabling processing of arithmetic and control flow operations directly on the simulated hardware. Programmed memory management and processor state visualization modules, optimizing resource usage at the machine language level to ensure efficient execution.",
-      "tech": ["Assembly (16-bit)"],
+      "tech": [
+        "Assembly (16-bit)"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/ensamblador.png",
       "thumb": "img/ensamblador.png",
@@ -314,12 +399,28 @@
     },
     {
       "id": "proj-14",
-      "category": ["IoT", "WEB"],
+      "category": [
+        "IoT",
+        "WEB"
+      ],
       "title": "Academic Project \"ComposTech\"",
       "shortDesc": "IoT system for composting automation integrating sensors and remote control.",
       "role": "Backend Developer & Scrum Master",
       "fullDesc": "Led the development of an IoT system with ESP32-S3 (C++/Arduino). Developed the web interface in React.js, HTML, and CSS for real-time monitoring. Designed the backend architecture with Node.js, Express.js, and AWS for database and critical variables. Implemented automated ventilation and irrigation control, managing with Jira (Scrum) and WBS. Documented detailed engineering and circuits.",
-      "tech": ["C++", "HTML", "CSS", "React.js", "Node.js", "Express.js", "JavaScript", "REST API", "AWS", "MySQL", "Jira", "Arduino IDE"],
+      "tech": [
+        "C++",
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "AWS",
+        "MySQL",
+        "Jira",
+        "Arduino IDE"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/compostech.png",
       "thumb": "img/compostech.png",
@@ -328,40 +429,65 @@
     },
     {
       "id": "proj-15",
-      "category": ["WEB", "Game Dev"],
-      "title": "Arcane Codex – Aulify",
-      "shortDesc": "Led the development of an educational video game built in Unity (C#) and deployed via WebGL, integrating a dynamic web user interface built with React.js.",
+      "category": [
+        "WEB",
+        "Game Dev"
+      ],
+      "title": "Arcane Codex - Aulify",
+      "shortDesc": "Led the development of an educational video game developed in Unity (C#) and deployed via WebGL, integrating a dynamic web user interface built with React.js.",
       "role": "Fullstack Developer & Scrum Master",
       "fullDesc": "Designed and developed the server architecture, implementing a REST API with Node.js, Express.js, and a relational database in MySQL for persistent profile and inventory management. Synchronized real-time client-server data, built an administrative Dashboard for metrics monitoring, and managed the lifecycle under Agile (Scrum) methodologies.",
-      "tech": ["C#", "Unity 3D", "HTML", "CSS", "React.js", "Node.js", "Express.js", "JavaScript", "REST API", "MySQL", "Jira"],
+      "tech": [
+        "C#",
+        "Unity 3D",
+        "HTML",
+        "CSS",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "MySQL",
+        "Jira"
+      ],
       "mediaType": "image",
-      "mediaSrc": "img/arcanecodex.png",
+      "mediaSrc": "img/arcanecoex.png",
       "thumb": "img/arcanecodex.png",
       "startDate": "Jan 2025",
       "endDate": "Jun 2025"
     },
     {
       "id": "proj-16",
-      "category": ["Robotics"],
+      "category": [
+        "Robotics"
+      ],
       "title": "Sumo Robot (Regional Competition)",
       "shortDesc": "Designed and programmed a remote combat robot using Arduino (C++).",
       "role": "Robotics Software Developer",
       "fullDesc": "Performed prototyping and circuit simulations in Tinkercad, optimizing energy consumption and actuator response for the regional competition.",
-      "tech": ["C++", "Arduino IDE"],
+      "tech": [
+        "C++",
+        "Arduino IDE"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/sumo.png",
       "thumb": "img/sumo.png",
       "startDate": "Jan 2025",
-      "endDate": "May 2025"
+      "endDate": "may 2025"
     },
     {
       "id": "proj-17",
-      "category": ["Robotics", "Computer Vision"],
+      "category": [
+        "Robotics",
+        "Computer Vision"
+      ],
       "title": "Autonomous Line Follower Drone (National Competition)",
       "shortDesc": "Programmed an autonomous navigation system for a drone to participate in a national competition.",
       "role": "Robotics Software Developer",
       "fullDesc": "Programmed an autonomous navigation system for a drone using Python and the OpenCV library for edge detection and real-time image processing. Implemented control algorithms for trajectory tracking, successfully participating in a national-level competition.",
-      "tech": ["Python"],
+      "tech": [
+        "Python"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/dron.png",
       "thumb": "img/dron.png",
@@ -370,12 +496,22 @@
     },
     {
       "id": "proj-18",
-      "category": ["WEB", "MOBILE"],
-      "title": "TicketGo – MAC Computadoras",
+      "category": [
+        "WEB",
+        "MOVIL"
+      ],
+      "title": "TicketGo - MAC Computadoras",
       "shortDesc": "Designed and implemented a REST API for a ticket management system for web and mobile applications.",
       "role": "Backend Developer",
       "fullDesc": "Implemented the backend in AWS using Node.js and Express.js, ensuring high availability and scalability. Responsible for architecture, development, and backend deployment, ensuring data integrity and efficiency. Managed the project using Agile methodology (Jira) with a React.js frontend and a Kotlin mobile app.",
-      "tech": ["Node.js", "Express.js", "JavaScript", "REST API", "AWS", "Jira"],
+      "tech": [
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "AWS",
+        "Jira"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/ticketgo.png",
       "thumb": "img/ticketgo.png",
@@ -384,12 +520,19 @@
     },
     {
       "id": "proj-19",
-      "category": ["AI", "Game Dev"],
-      "title": "Tanuki Sunset Agent – Rewind Games",
+      "category": [
+        "AI",
+        "Game Dev"
+      ],
+      "title": "Tanuki Sunset Agent - Rewind Games",
       "shortDesc": "Development of an AI system for a racing video game, integrating Unity ML-Agents for autonomous agent training and a telemetry subsystem (Ghost System) for recording, optimization, and visualization of optimal routes.",
       "role": "AI Software Engineer",
       "fullDesc": "Implemented an agent with Unity ML-Agents architecture, configuring vector observations and reward logic. Developed a persistence module (OptimalLineRecorder) with JSON serialization. Created a visualizer (OptimalLineRenderer) using Physics.Raycast for terrain adaptation and trajectory projection.",
-      "tech": ["C#", "Unity 3D", "Unity ML-Agents"],
+      "tech": [
+        "C#",
+        "Unity 3D",
+        "Unity ML-Agents"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/tanukighost.png",
       "thumb": "img/tanukighost.png",
@@ -398,12 +541,23 @@
     },
     {
       "id": "proj-20",
-      "category": ["WEB"],
-      "title": "CICACTA DOCSITE – Center for Research in Applied Science and Advanced Technology",
-      "shortDesc": "Created a web system for CICATA aimed at generating certificates and centralizing processes in a single system, streamlining workflows and improving time efficiency.",
+      "category": [
+        "WEB"
+      ],
+      "title": "CICACTA DOCSITE - Center for Research in Applied Science and Advanced Technology",
+      "shortDesc": "Created a web system for CICATA aimed at generating certificates and centralizing processes in a single system, streamlining these processes and improving time efficiency.",
       "role": "Backend Developer & Scrum Master",
       "fullDesc": "Designed and developed a MySQL database for a certificate generation system. Migrated and adapted the database to Prisma and configured the backend environment with Node.js and Express.js, created REST API endpoints with JavaScript, and documented them with Swagger. Developed the frontend with HTML, CSS, and React.js. Managed the project with Jira using Scrum.",
-      "tech": ["Node.js", "Express.js", "JavaScript", "REST API", "MySQL", "Prisma", "Swagger", "Jira"],
+      "tech": [
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST API",
+        "MySQL",
+        "Prisma",
+        "Swagger",
+        "Jira"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/micicata.png",
       "thumb": "img/micicata.png",
@@ -412,12 +566,22 @@
     },
     {
       "id": "proj-21",
-      "category": ["WEB"],
+      "category": [
+        "WEB"
+      ],
       "title": "Monterrey Institute of Technology and Higher Education",
       "shortDesc": "Restructured and modernized a legacy web system using an architecture based on React.js, Node.js, Express.js, Prisma, and MySQL.",
       "role": "Backend Developer",
       "fullDesc": "Designed and implemented REST APIs with Node.js and Express.js to support new system features. Developed the frontend layout with HTML, CSS, and React.js. Documented endpoints using Swagger and used Docker to standardize development and deployment environments. Collaborated to integrate backend services, improving maintainability, scalability, and stability.",
-      "tech": ["TypeScript", "REST API", "Prisma", "SQL", "Docker", "Swagger", "Jira"],
+      "tech": [
+        "TypeScript",
+        "REST API",
+        "Prisma",
+        "SQL",
+        "Docker",
+        "Swagger",
+        "Jira"
+      ],
       "mediaType": "image",
       "mediaSrc": "img/misaet.png",
       "thumb": "img/misaet.png",

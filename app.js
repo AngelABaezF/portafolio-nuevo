@@ -15,11 +15,15 @@
    Soporta: "Ago 2020", "Ene 2025 – Jul 2025", "2026", "Mar 2023", etc.
    ───────────────────────────────────────────────────────────────────────── */
 const MONTH_MAP = {
+  // Spanish
   ene:1, feb:2, mar:3, abr:4, may:5, jun:6,
   jul:7, ago:8, sep:9, oct:10, nov:11, dic:12,
+  // English
+  jan:1, apr:4, aug:8, dec:12,
 };
 
 function parseDateToNum(dateStr) {
+  if (!dateStr) return 0;
   // Si hay un rango ("Ene 2025 – Jul 2025") toma solo la primera fecha
   const part   = dateStr.split('–')[0].trim().toLowerCase();
   const tokens = part.split(/\s+/);
@@ -29,7 +33,11 @@ function parseDateToNum(dateStr) {
 
   tokens.forEach(t => {
     const y = parseInt(t, 10);
-    if (!isNaN(y) && y > 1900) { year = y; return; }
+    if (!isNaN(y)) {
+      // Año de 2 dígitos (ej: "22" → 2022)
+      if (y >= 0 && y <= 99) { year = 2000 + y; return; }
+      if (y > 1900)           { year = y; return; }
+    }
     if (MONTH_MAP[t]) month = MONTH_MAP[t];
   });
 
@@ -409,12 +417,12 @@ const Projects = (() => {
     const bar = document.createElement('div');
     bar.className = 'sort-bar';
     bar.innerHTML = `
-      <span class="sort-label"><i class="ri-sort-asc"></i> Ordenar:</span>
-      <button class="sort-btn" data-dir="asc" title="Del proyecto más antiguo al más reciente">
-        <span class="sort-icon">▲</span> Más antiguo
+      <span class="sort-label"><i class="ri-sort-asc"></i> Sort:</span>
+      <button class="sort-btn" data-dir="asc" title="Oldest project first">
+        <span class="sort-icon">▲</span> Oldest
       </button>
-      <button class="sort-btn active" data-dir="desc" title="Del proyecto más reciente al más antiguo">
-        <span class="sort-icon">▼</span> Más reciente
+      <button class="sort-btn active" data-dir="desc" title="Most recent project first">
+        <span class="sort-icon">▼</span> Most recent
       </button>
     `;
 
@@ -434,10 +442,12 @@ const Projects = (() => {
 
   // ── Render ────────────────────────────────────────────────────────────────
   function renderGrid() {
-    // Ordena por índice original
-    const sorted = [...allProjects].sort((a, b) =>
-      sortDir === 'asc' ? a._idx - b._idx : b._idx - a._idx
-    );
+    // Ordena por endDate (usa parseDateToNum para parsear la fecha)
+    const sorted = [...allProjects].sort((a, b) => {
+      const ta = parseDateToNum(a.endDate || '');
+      const tb = parseDateToNum(b.endDate || '');
+      return sortDir === 'asc' ? ta - tb : tb - ta;
+    });
 
     // Filtra por categoría
     const visible = currentFilter === 'all'

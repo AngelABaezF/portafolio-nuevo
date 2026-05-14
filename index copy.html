@@ -25,12 +25,12 @@
       <span class="logo-bracket">]</span>
     </div>
     <ul class="nav-links">
-      <li><a href="#intro">Home</a></li>
-      <li><a href="#timeline">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#intro">Inicio</a></li>
+      <li><a href="#timeline">Experiencia</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
     </ul>
-    <button class="nav-burger" id="navBurger" aria-label="Open menu">
+    <button class="nav-burger" id="navBurger" aria-label="Abrir menú">
       <span></span><span></span><span></span>
     </button>
   </nav>
@@ -43,28 +43,28 @@
       <div class="photo-wrapper">
         <div class="photo-ring"></div>
         <div class="photo-container" id="photoContainer">
-          <img id="profilePhoto" src="" alt="Profile photo" />
+          <img id="profilePhoto" src="" alt="Foto de perfil" />
           <a id="linkedinOverlay" href="#" target="_blank" rel="noopener" class="linkedin-overlay">
             <i class="ri-linkedin-box-fill"></i>
-            <span>View LinkedIn</span>
+            <span>Ver LinkedIn</span>
           </a>
         </div>
         <!-- Decorative scan line -->
         <div class="scan-line"></div>
       </div>
 
-      <!-- Personal text block -->
+      <!-- Bloque de texto personal -->
       <div class="intro-text">
-        <p class="intro-greeting">Incoming transmission…</p>
+        <p class="intro-greeting">Transmisión entrante…</p>
         <h1 id="introName" class="glitch" data-text="Dev Alex Baez">Dev Alex Baez</h1>
         <div class="title-bar">
           <span class="title-badge">Fullstack</span>
           <span class="title-badge">Backend Architect</span>
         </div>
-        <p id="introBio" class="intro-bio">Loading data from the imperial database…</p>
+        <p id="introBio" class="intro-bio">Cargando datos desde la base de datos imperial…</p>
         <div class="intro-cta">
-          <a href="#projects" class="btn-primary">View Projects</a>
-          <a href="#contact" class="btn-ghost">Contact</a>
+          <a href="#projects" class="btn-primary">Ver Proyectos</a>
+          <a href="#contact" class="btn-ghost">Contactar</a>
         </div>
       </div>
 
@@ -80,68 +80,68 @@
   <!-- ─── SECTION 2 · TIMELINE ─────────────────────────────────────────────── -->
   <section id="timeline" class="section">
     <div class="section-header">
-      <h2 class="section-title">Mission Log</h2>
-      <p class="section-sub">Timeline · Experience &amp; Education</p>
+      <h2 class="section-title">Registro de Misiones</h2>
+      <p class="section-sub">Línea temporal · Experiencia &amp; Educación</p>
     </div>
 
-    <!-- Line and nodes are generated dynamically -->
+    <!-- La línea y los nodos se generan dinámicamente -->
     <div class="timeline-track" id="timelineTrack">
       <!-- <div class="timeline-rail"></div> -->
-      <!-- Nodes injected by JS -->
+      <!-- Nodos inyectados por JS -->
     </div>
 
-    <!-- Floating timeline card (positioned with JS) -->
+    <!-- Tarjeta flotante de timeline (se posiciona con JS) -->
     <div class="timeline-card hidden" id="timelineCard">
       <button class="timeline-card-close" id="tlCardClose">✕</button>
       <p class="tl-date" id="tlDate"></p>
       <h3 class="tl-title" id="tlTitle"></h3>
       <p class="tl-desc" id="tlDesc"></p>
-      <a class="btn-ghost btn-sm hidden" id="tlLink" href="#" target="_blank" rel="noopener">Learn more →</a>
+      <a class="btn-ghost btn-sm hidden" id="tlLink" href="#" target="_blank" rel="noopener">Ver más →</a>
     </div>
   </section>
 
   <!-- ─── SECTION 3 · PROJECTS ─────────────────────────────────────────────── -->
   <section id="projects" class="section">
     <div class="section-header">
-      <h2 class="section-title">Operations Base</h2>
-      <p class="section-sub">Projects · Select a target</p>
+      <h2 class="section-title">Base de Operaciones</h2>
+      <p class="section-sub">Proyectos · Selecciona un objetivo</p>
     </div>
 
-    <!-- Filter bar styled like a control panel -->
-    <nav class="filter-bar" id="filterBar" role="navigation" aria-label="Filter projects">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <!-- Category buttons injected by JS -->
+    <!-- Barra de filtros estilo panel de control -->
+    <nav class="filter-bar" id="filterBar" role="navigation" aria-label="Filtrar proyectos">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <!-- Botones de categorías se inyectan por JS -->
     </nav>
 
-    <!-- Cards grid -->
+    <!-- Grid de tarjetas -->
     <div class="projects-grid" id="projectsGrid">
-      <!-- Cards injected by JS -->
+      <!-- Tarjetas inyectadas por JS -->
     </div>
   </section>
 
   <!-- ─── SECTION 4 · PROJECT DETAIL (modal/expandible) ───────────────────── -->
   <div class="project-detail-overlay hidden" id="projectDetailOverlay">
     <div class="project-detail-panel" id="projectDetailPanel">
-      <!-- Header -->
+      <!-- Cabecera -->
       <div class="pd-header">
-        <button class="pd-close" id="pdClose" aria-label="Close">✕</button>
+        <button class="pd-close" id="pdClose" aria-label="Cerrar">✕</button>
         <p class="pd-role" id="pdRole"></p>
         <h2 class="pd-title" id="pdTitle"></h2>
       </div>
 
-      <!-- Body -->
+      <!-- Cuerpo -->
       <div class="pd-body">
-        <!-- Media: YouTube iframe or image -->
+        <!-- Media: YouTube iframe o imagen -->
         <div class="pd-media" id="pdMedia"></div>
 
-        <!-- Description and tech stack -->
+        <!-- Descripción y tech stack -->
         <div class="pd-info">
           <p class="pd-desc" id="pdDesc"></p>
           <div class="pd-tech" id="pdTech"></div>
         </div>
       </div>
 
-      <!-- HUD corners effect -->
+      <!-- Efecto HUD corners -->
       <div class="hud-corner hud-tl"></div>
       <div class="hud-corner hud-tr"></div>
       <div class="hud-corner hud-bl"></div>
@@ -152,27 +152,27 @@
   <!-- ─── SECTION 5 · CONTACT ──────────────────────────────────────────────── -->
   <section id="contact" class="section">
     <div class="section-header">
-      <h2 class="section-title">Communication Channel</h2>
-      <p class="section-sub">Send a transmission to the pilot</p>
+      <h2 class="section-title">Canal de Comunicación</h2>
+      <p class="section-sub">Envía una transmisión al piloto</p>
     </div>
 
     <div class="contact-grid">
 
-      <!-- Animated envelope -->
+      <!-- Sobre animado -->
       <div class="envelope-wrapper">
         <div class="envelope" id="envelopeBtn">
           <div class="env-flap"></div>
           <div class="env-body">
             <div class="env-letter">
-              <span>Open email client</span>
+              <span>Abrir cliente de correo</span>
             </div>
           </div>
           <div class="env-glow"></div>
         </div>
-        <p class="contact-label">Email</p>
+        <p class="contact-label">Correo Electrónico</p>
       </div>
 
-      <!-- WhatsApp / Teams button -->
+      <!-- Botón WhatsApp / Teams -->
       <div class="contact-social">
         <a id="waLink" href="#" target="_blank" rel="noopener" class="social-btn wa-btn">
           <i class="ri-whatsapp-line"></i>
@@ -189,7 +189,7 @@
 
   <!-- ─── FOOTER ────────────────────────────────────────────────────────────── -->
   <footer>
-    <p>© <span id="footerYear"></span> · <span id="footerName">Dev Alex Baez</span> · May the Force of Code be with you.</p>
+    <p>© <span id="footerYear"></span> · <span id="footerName">Dev Alex Baez</span> · Que la Fuerza del Código esté contigo.</p>
   </footer>
 
   <script src="app.js"></script>
